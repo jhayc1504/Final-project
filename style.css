@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url(./img/CITed.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgreen;
+    border-bottom: 10px solid yellow;
+}
+h1{
+    padding: 15px;
+
+    text-align: left;
+    font-size: 50px;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    padding: 10px;
+    text-decoration: wavy;
+    margin-left: 24px;
+    color: darkorange;
+    font-size: 35px;
+}
+h2{
+
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+article{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.dep{
+    display: flex;
+    direction: row;
+    background-color: green;
+    width: 100%;
+    border: 2px;
+    height: 15vw;
+}
+
+.main-div2{
+    display: flex;
+    flex-direction: row;
+}
+
+.ah1{
+    margin-right: 200px;
+}
+
+.faculty{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 23vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.deptool{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.a2:hover{
+    border: 1px solid black;
+    
+}
+
+.AH2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.a2{
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    
+}
+
+li{
+    margin-bottom: 25px;
+}
+
+.class-main{
+    display: flex;
+    flex-direction: column;
+}
+.title1{
+    text-align: center;
+}
+
+.cardz{
+    display: flex;
+    flex-direction: row;
+}
+
+.orientation{
+    display: flex;
+    flex-direction: column;
+}
+
+.maincom{
+    display: flex;
+    flex-direction: column;
+}
+
+.com{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.com2{
+    display: flex;
+    flex-direction: row;
+}
+
+.com3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 5vw;
+    width: 18vw;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0%;
+    background-color: white;
+}
+
+.name{
+    font-size: 1vw;
+    width: 60%;
+}
+
+.link{
+    font-size: 1vw;
+    align-content: center;
+    width: 40%;
+}
+
+.im111{
+    height: 20vw;
+    width: 20vw;
+    margin-right: 45px;
+    border: 1px solid black;
+    
+}
+
+tr, td{
+    height: 12vw;
+    width: 45vw;
+    align-items: baseline;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.backopt{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    align-items: left;
+    width: 10px;
+
+}
+
+.intN{
+    margin-bottom: 25px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.int{
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+
+.persona{
+    text-align: justify;
+}
+
+.aldz, .hallar{
+    background-color: aliceblue;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    a {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        flex: 0 1 calc(48% - 10px);
+    }
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    a {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .container {
+        width: 100%;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        flex: 0 1 calc(100% - 20px);
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (min-width: 1024px) {
+
+}
+
+
+
+
